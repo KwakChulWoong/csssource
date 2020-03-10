@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .clearfix {
+        background: #333;
+      }
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: block;
+      }
+      .clearfix li {
+        float: left;
+        list-style: none;
+      }
+      li a {
+        padding: 14px 16px;
+        font-size: 30px;
+        display: inline-block;
+      }
+      a.link {
+        text-decoration: none;
+        color: #fff;
+      }
+      a:hover {
+        background-color: blueviolet;
+      }
+      a:active {
+        background: red;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <ul class="clearfix">
+      <a href="#">Home</a>
+      <a href="#">News</a>
+      <a href="#">Contact</a>
+      <a href="#">About</a>
+    </ul>
+  </body>
+</html>

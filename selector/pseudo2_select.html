@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <style>
+      /* h1 태그위에 마우스를 올리면 밑줄이 그어지도록 하기
+        box를 누르고 있는 동안 box의 width와 color가 변경되도록 하기
+        input이 포커스를 받으면 배경 색상 변하게 만들기 */
+      .tag:hover {
+        text-decoration: underline;
+      }
+      .tag:active {
+        width: 50px;
+        background-color: chartreuse;
+      }
+      input:focus {
+        color: green;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <h1 class="tag"></h1>
+    </div>
+    <div>
+      <input type="text" />
+    </div>
+  </body>
+</html>

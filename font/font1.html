@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <style>
+      p {
+        /* font-style: italic; */
+        font-weight: bold;
+        font-size: 40px;
+      }
+      div {
+        line-height: 1.5;
+        font-size: 32px;
+        font-family: Arial, Helvetica, "Open Sans", "돋 움", sans-serif;
+      }
+      .serif {
+        font-family: serif;
+      }
+      .sans-serif {
+        font-family: sans-serif;
+      }
+      .monospace {
+        font-family: monospace;
+      }
+      .cursive {
+        font-family: cursive;
+      }
+      .total {
+        /* 단축속성으로 font 속성값을 부여하는 것이 가능
+          단, font-size, font-family 속성은 무조건 부여해야함 */
+        font: italic bold 20px / 1.5 Arial, sans-serif;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- font
+         font - style: 글자의 기울임꼴
+         font - weight: 글자의 두께(100~900, bold, normal=400)
+         font - size: 글자의 크기
+         line - height: 줄 높이
+         font - family: 글꼴(글꼴명 나열, 마지막에는 글꼴의 계열)
+         글꼴계열 : sans-serif(고딕체) / serif(바탕체) / monospace(고정너비 글꼴) / cursive(필기체)
+        -->
+    <p>Hello!! World!!</p>
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla similique
+      eos exercitationem omnis corporis. Impedit nihil totam earum quas dicta
+      ratione, quidem modi repellendus, debitis a aspernatur doloribus molestiae
+      accusantium voluptas sequi corrupti, mollitia enim ipsa beatae ex odit
+      dolorem laudantium? Aspernatur, perspiciatis vitae tempora culpa incidunt
+      ipsum, reiciendis ex fugit expedita libero sapiente quo sed quas fuga,
+      asperiores harum adipisci temporibus quos ducimus assumenda. Labore
+      maiores et libero alias molestiae. Quia cupiditate facere doloremque quis
+      expedita mollitia laborum fuga at fugiat animi impedit aliquam libero,
+      quisquam nesciunt, ipsam vel sunt odit, voluptatibus architecto optio.
+      Voluptas quibusdam suscipit obcaecati ipsa!
+    </div>
+    <p class="serif">Hello World</p>
+    <p class="sans-serif">Hello World</p>
+    <p class="monospace">Hello World</p>
+    <p class="cursive">Hello World</p>
+    <p class="total">Hello World</p>
+  </body>
+</html>
